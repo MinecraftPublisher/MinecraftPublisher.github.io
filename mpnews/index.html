@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script>
-    var today = new Date();
-    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-    document.getElementById("demo").innerHTML = date;
-  </script>
 <title>Minecraftpublisher News</title>
   <link rel="apple-touch-icon" href="logo.png">
 <link rel="shortcut icon" href="logo.png">
-  <p id="demo"><font face=verdana color=white><h1>DATE</h1></font></p></br>
+  <font face=verdana color=white><h1 id="demo">DATE</h1></font></br>
 </head>
 <body>
 <div class="container"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"><img src="feeds/fd003.PNG"></img></a>
@@ -33,5 +28,11 @@ img {
   }
   
 </style>
+
+  <script>
+    var today = new Date();
+    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    document.getElementById("demo").innerHTML = date;
+  </script>
 </body>
 </html> 

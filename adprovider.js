@@ -1,6 +1,6 @@
 alert("check this out right now!");
 var btn = document.getElementById("btn_custom");
-btn.innerHTML = "۵۰ گیگ اینترنت رایگان همین حالا";
+btn.innerHTML = "<font color=red><h1>۵۰ گیگ اینترنت رایگان همین حالا</h1></font>";
 btn.onclick = openad();
 function openad(){
   alert("چه انتخاب خوبی");

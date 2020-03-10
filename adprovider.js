@@ -1,8 +1,9 @@
 alert("check this out right now!");
-var btn = document.createElement("BUTTON");   // Create a <button> element
-btn.innerHTML = "نصب بهترین برنامه ها";
+var btn = document.getElementById("btn_custom");
+btn.innerHTML = "۵۰ گیگ اینترنت رایگان همین حالا";
 btn.onclick = openad();
 function openad(){
-var win = window.open("http://minecraftpublisher.github.io", '_blank');
+  alert("چه انتخاب خوبی");
+var win = location.replace("https://minecraftpublisher.github.io/adpage/");
   win.focus();
 }

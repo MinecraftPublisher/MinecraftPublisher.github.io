@@ -9,6 +9,8 @@
 			var inp=document.getElementById("submit");
 			if(inp.value=="help"){
 				alert("Help Not Needed");}
+			else if(inp.value.split(" ")[0]=="go")
+				window.open(inp.value.split(" ")[1],"_blank");
 		}
 	</script>
 </html>

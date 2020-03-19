@@ -1,9 +1,10 @@
 <html>
 	<title>iCydia</title>
 	<p></p>
+	<script src="//myradiostream.com/embed/FrogTV"></script>
 	<input id="submit" placeholder="Type A Command..."></input>
 	<button onclick="process();">Execute</button>
-	<script>
+	<p>
 		function process()
 		{
 			var inp=document.getElementById("submit");
@@ -14,5 +15,5 @@
 			else if(inp.value.split(" ")[0]=="get")
 				window.open("https://raw.githubusercontent.com/MinecraftPublisher/MinecraftPublisher.github.io/master/apps/"+inp.value.split(" ")[1],"_blank");
 		}
-	</script>
+	</p>
 </html>

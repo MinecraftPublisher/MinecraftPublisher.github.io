@@ -1,19 +1,19 @@
 <html>
 	<title>iCydia</title>
-	<p></p>
-	<script src="//myradiostream.com/embed/FrogTV"></script>
-	<!--<input id="submit" placeholder="Type A Command..."></input>
+	<p id="result"></p>
+	<input id="submit" placeholder="چه میخواهید"></input>
 	<button onclick="process();">Execute</button>
 	<p>
 		function process()
 		{
 			var inp=document.getElementById("submit");
-			if(inp.value=="help"){
-				alert("Help Not Needed");}
-			else if(inp.value.split(" ")[0]=="go")
-				window.open(inp.value.split(" ")[1],"_blank");
-			else if(inp.value.split(" ")[0]=="get")
-				window.open("https://raw.githubusercontent.com/MinecraftPublisher/MinecraftPublisher.github.io/master/apps/"+inp.value.split(" ")[1],"_blank");
+			if(inp=="list"){
+				document.getElementById("result").InnerHTML="برنامه های موجود\nnull";
+			}
+			else
+			{
+				location.replcae("/"+document.getElementById("result").InnerHTML+".apk");
+			}
 		}
-	</p>-->
+	</p>
 </html>

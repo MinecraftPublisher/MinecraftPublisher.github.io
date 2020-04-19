@@ -1,7 +1,11 @@
-# AdBlock for iOS DNS Proxy rules 
-# https://itunes.apple.com/us/app/adblock/id691121579
-# Exported Apr 19, 2020 at 11:56:58 PM with AdBlock v4.2.1
-
+# AdBlock list by martia.f
+#follow on instagram:  @martia.f
+#twitter: @foroudmartia
+#github: minecraftpublisher
+#Thanks for using my list with nearly
+#10000 domains!
+#ENJOY!
+#Alert:This list may cause problems like app store not loading.
 10148.engine.mobileapptracking.com
 10402.engine.mobileapptracking.com
 10896.engine.mobileapptracking.com
